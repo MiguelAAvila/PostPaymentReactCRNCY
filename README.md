@@ -46,3 +46,25 @@ npm start
 ```
 This will start the React development server and automatically open the app in your default browser. The application will be available at http://localhost:3000/.
 
+### 5. Login with given credentials
+Once you navigate to http://localhost:3000/, you will be prompt to login, please enter the correct username and password. 
+
+### 6. Uploading CSV File
+
+Once you successfully log in, please upload the CSV file for the payment with the correct information. The CSV file should be in the following order:
+
+1. **Header ID** – The unique loan ID for the loan in the LMS.
+2. **Payment Amount** – The amount to be posted to the loan.
+3. **Instrument Number** – A comment added to the transaction in the LMS.
+4. **Payment Date** – The date the transaction should be posted as (can be a previous date).
+
+### 7. Parsing the data from the upload CSV File
+
+Once the csv file is uploaded, please click **Parse CSV**   
+
+### 8. Sending the data to the CRNCY System
+
+Once the data is corrected parsed, please ensure that the table is displaying correct the data according to the header. Once the data is verified, you can upload the data to CRNCY system via two ways: 
+
+1. **Individually** – The system allows the user to upload individually the records via the Action section **Process**.
+2. **Process All** – The system allows the user to upload all the records at once.
