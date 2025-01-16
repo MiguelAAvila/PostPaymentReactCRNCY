@@ -26,7 +26,7 @@ git clone https://github.com/MiguelAAvila/PostPaymentReactCRNCY
 After cloning the project, navigate into the project directory:
 
 ``` bash 
-cd post-payment-csv-react 
+cd PostPaymentReactCRNCY 
 ```
 
 ### 3. Install Dependencies
@@ -45,6 +45,4 @@ To start the application locally, run the following command:
 npm start 
 ```
 This will start the React development server and automatically open the app in your default browser. The application will be available at http://localhost:3000/.
-
-
 
